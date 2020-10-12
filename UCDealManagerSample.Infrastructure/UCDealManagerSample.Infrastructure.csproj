@@ -15,4 +15,8 @@
     <ProjectReference Include="..\UCDealManagerSample.Domain\UCDealManagerSample.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
 </Project>

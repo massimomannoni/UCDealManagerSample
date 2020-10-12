@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDealManagerSample.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDealManagerSample.Domain", "UCDealManagerSample.Domain\UCDealManagerSample.Domain.csproj", "{EF474A8E-5056-4207-AA00-EE344D775D17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDealManagerSample.Application", "UCDealManagerSample.Application\UCDealManagerSample.Application.csproj", "{072E51BB-CAD6-436D-B718-7CD8D46CB9E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EF474A8E-5056-4207-AA00-EE344D775D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF474A8E-5056-4207-AA00-EE344D775D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF474A8E-5056-4207-AA00-EE344D775D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{072E51BB-CAD6-436D-B718-7CD8D46CB9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{072E51BB-CAD6-436D-B718-7CD8D46CB9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{072E51BB-CAD6-436D-B718-7CD8D46CB9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{072E51BB-CAD6-436D-B718-7CD8D46CB9E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
