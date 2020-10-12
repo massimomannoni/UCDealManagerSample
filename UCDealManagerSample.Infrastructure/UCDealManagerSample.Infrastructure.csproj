@@ -9,9 +9,11 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.0.2" />
     <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\UCDealManagerSample.Application\UCDealManagerSample.Application.csproj" />
     <ProjectReference Include="..\UCDealManagerSample.Domain\UCDealManagerSample.Domain.csproj" />
   </ItemGroup>
 

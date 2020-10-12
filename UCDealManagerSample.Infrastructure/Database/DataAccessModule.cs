@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using UCDealManagerSample.Application.Configuration.Data;
 
 namespace UCDealManagerSample.Infrastructure.Database
 {
@@ -16,7 +17,15 @@ namespace UCDealManagerSample.Infrastructure.Database
 
         protected override void Load(ContainerBuilder builder)
         {
-           // register interfaces here
+            // register interfaces here
+
+            builder.RegisterType<SqlConnectionFactory>()
+                .As<ISqlConnectionFactory>()
+                .WithParameter("connectionString", _dataConnectionString)
+                .InstancePerLifetimeScope();
+
+
+
         }
     }
 }
