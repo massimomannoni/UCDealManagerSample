@@ -3,10 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDealManagerSample.Infrastructure", "UCDealManagerSample.Infrastructure\UCDealManagerSample.Infrastructure.csproj", "{7945D8F1-5322-4D6E-82CF-27C48138FF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDealManagerSample.Domain", "UCDealManagerSample.Domain\UCDealManagerSample.Domain.csproj", "{EF474A8E-5056-4207-AA00-EE344D775D17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7945D8F1-5322-4D6E-82CF-27C48138FF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7945D8F1-5322-4D6E-82CF-27C48138FF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7945D8F1-5322-4D6E-82CF-27C48138FF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7945D8F1-5322-4D6E-82CF-27C48138FF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF474A8E-5056-4207-AA00-EE344D775D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF474A8E-5056-4207-AA00-EE344D775D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF474A8E-5056-4207-AA00-EE344D775D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF474A8E-5056-4207-AA00-EE344D775D17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
